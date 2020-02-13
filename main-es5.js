@@ -1863,7 +1863,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = (".multilinechart {\n  overflow: visible; }\n\n.city {\n  stroke-width: 5px;\n  stroke-linejoin: round;\n  stroke-linecap: round;\n  mix-blend-mode: multiply; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2FkbWluLXBjL015UHJvamVjdHMvQW5ndWxhclByb2plY3RzL3VzZXJtYW5hZ2VtZW50YXBwL3NyYy9hcHAvZGFzaGJvYXJkL211bHRpbGluZWNoYXJ0L211bHRpbGluZWNoYXJ0LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsaUJBQWlCLEVBQUE7O0FBR25CO0VBQ0UsaUJBQWlCO0VBQ2pCLHNCQUFzQjtFQUN0QixxQkFBcUI7RUFDckIsd0JBQXdCLEVBQUEiLCJmaWxlIjoic3JjL2FwcC9kYXNoYm9hcmQvbXVsdGlsaW5lY2hhcnQvbXVsdGlsaW5lY2hhcnQuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubXVsdGlsaW5lY2hhcnQge1xuICBvdmVyZmxvdzogdmlzaWJsZTtcbn1cblxuLmNpdHkge1xuICBzdHJva2Utd2lkdGg6IDVweDtcbiAgc3Ryb2tlLWxpbmVqb2luOiByb3VuZDtcbiAgc3Ryb2tlLWxpbmVjYXA6IHJvdW5kO1xuICBtaXgtYmxlbmQtbW9kZTogbXVsdGlwbHk7XG59XG4iXX0= */");
+            /* harmony default export */ __webpack_exports__["default"] = (".multilinechart {\n  overflow: scroll; }\n\n.city {\n  stroke-width: 5px;\n  stroke-linejoin: round;\n  stroke-linecap: round;\n  mix-blend-mode: multiply; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2FkbWluLXBjL015UHJvamVjdHMvQW5ndWxhclByb2plY3RzL3VzZXJtYW5hZ2VtZW50YXBwL3NyYy9hcHAvZGFzaGJvYXJkL211bHRpbGluZWNoYXJ0L211bHRpbGluZWNoYXJ0LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsZ0JBQWdCLEVBQUE7O0FBR2xCO0VBQ0UsaUJBQWlCO0VBQ2pCLHNCQUFzQjtFQUN0QixxQkFBcUI7RUFDckIsd0JBQXdCLEVBQUEiLCJmaWxlIjoic3JjL2FwcC9kYXNoYm9hcmQvbXVsdGlsaW5lY2hhcnQvbXVsdGlsaW5lY2hhcnQuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubXVsdGlsaW5lY2hhcnQge1xuICBvdmVyZmxvdzogc2Nyb2xsO1xufVxuXG4uY2l0eSB7XG4gIHN0cm9rZS13aWR0aDogNXB4O1xuICBzdHJva2UtbGluZWpvaW46IHJvdW5kO1xuICBzdHJva2UtbGluZWNhcDogcm91bmQ7XG4gIG1peC1ibGVuZC1tb2RlOiBtdWx0aXBseTtcbn1cbiJdfQ== */");
             /***/ 
         }),
         /***/ "./src/app/dashboard/multilinechart/multilinechart.component.ts": 
@@ -2640,6 +2640,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
                         .attr('dy', '0.32em')
                         .style('font-size', '12px')
                         .text(function (d) { return d; });
+                    this.svg.attr('width', this.width + 100);
                 };
                 return StackedchartComponent;
             }());
