@@ -1694,7 +1694,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
             __webpack_require__.r(__webpack_exports__);
             /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "API_URL", function () { return API_URL; });
             /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-            var API_URL = "http://54.169.184.39:3001/v1/api/";
+            var API_URL = "http://52.221.207.221:3000/v1/api/";
             /***/ 
         }),
         /***/ "./src/app/dashboard/dashboard-routing.module.ts": 
